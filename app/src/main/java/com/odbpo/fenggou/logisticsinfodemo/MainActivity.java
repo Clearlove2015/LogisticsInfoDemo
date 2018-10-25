@@ -11,6 +11,9 @@ import com.odbpo.fenggou.logisticsinfodemo.util.InitDataUtil;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * https://github.com/hexianqiao3755/LogisticsDisplayExample
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Bind(R.id.rv)
