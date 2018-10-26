@@ -13,7 +13,8 @@
         <View
             android:id="@+id/v_short_line"
             android:layout_width="1dp"
-            android:layout_height="15dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:background="#E6E6E6" />
 
         <ImageView
@@ -35,7 +36,8 @@
         <View
             android:id="@+id/v_long_line"
             android:layout_width="1dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:background="#E6E6E6" />
 
     </LinearLayout>
@@ -53,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#18C289"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/tv_info"

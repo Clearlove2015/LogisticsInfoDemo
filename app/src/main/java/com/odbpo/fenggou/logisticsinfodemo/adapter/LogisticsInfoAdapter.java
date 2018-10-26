@@ -31,7 +31,8 @@ public class LogisticsInfoAdapter extends BaseQuickAdapter<LogisticsInfoBean, Ba
                 //当前item的索引 != 0    ->  显示圆点上面短一点的灰线
                 .setVisible(R.id.v_short_line, helper.getLayoutPosition() != 0)
                 //当前item的索引 != 物流数据的最后一条    ->  显示圆点下面长一点的灰线
-                .setGone(R.id.v_long_line, helper.getLayoutPosition() != data.size() - 1)
+                //.setGone(R.id.v_long_line, helper.getLayoutPosition() != data.size() - 1)
+                .setVisible(R.id.v_long_line, helper.getLayoutPosition() != data.size() - 1)
                 //当前item的索引 != 物流数据的最后一条    ->  显示物流时间下面的横向的灰线
                 .setGone(R.id.v_bottom_line, helper.getLayoutPosition() != data.size() - 1)
                 .setTextColor(R.id.tv_status, newInfoColor)
